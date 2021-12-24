@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Admin Pannel</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="../../admincss/css/reset.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="../../admincss/css/main.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="../../admincss/css/2col.css" title="2col" />
+<link rel="alternate stylesheet" media="screen,projection" type="text/css" href="../../admincss/css/1col.css" title="1col" />
+<!--[if lte IE 6]><link rel="stylesheet" media="screen,projection" type="text/css" href="css/main-ie6.css" /><![endif]-->
+<link rel="stylesheet" media="screen,projection" type="text/css" href="../../admincss/css/style.css" />
+<link rel="stylesheet" media="screen,projection" type="text/css" href="../../admincss/css/mystyle.css" />
+
+
+
+
+<link href="../../admincss/admin.css" rel="stylesheet">
+
+
+
+
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/switcher.js"></script>
+<script type="text/javascript" src="../../js/toggle.js"></script>
+<script type="text/javascript" src="../../js/ui.core.js"></script>
+<script type="text/javascript" src="../../js/ui.tabs.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".tabs > ul").tabs();
+  });
+  </script>
+
+
+
+
+<style >
+  
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+<div id="main">
+  <!-- Tray -->
+  <div id="tray" class="box">
+    <p class="f-left box">
+      <!-- Switcher -->
+      <span class="f-left" id="switcher"> <a href="javascript:void(0);" rel="1col" class="styleswitch ico-col1" title="Display one column">
+      </a> <a href="javascript:void(0)" rel="2col" class="styleswitch ico-col2" title="Display two columns"><img src="design/switcher-2col.gif" alt="" /></a> </span> My Blog: <strong>Techzoo</strong> </p>
+    <p class="f-right">User: <strong><a href="#">Administrator</a></strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="#" id="logout">Log out</a></strong></p>
+  </div>
+ 
+
+<div class="admin-wrapper">
+
+<div class="left-sidebar">
+
+  <ul>
+    <li><a href="index.html"><h3>Manage Posts</h3></a></li>
+     <li><a href="../users/index.html"><h3>Manage Users</h3></a></li>
+      <li><a href="../topics/index.html"><h3>Manage Topics</h3></a></li>
+
+  </ul>
+
+</div>
+
+<div class="Admin-content">
+
+<div class="button1">
+
+  <a href="create.html" class="btn btn-big">Add Post</a>
+   
+  
+
+
+
+
+</div>
+<div class="button1">
+
+  
+    <a href="index.html" class="btn btn-big">Manage Posts</a>
+  
+
+
+
+
+</div>
+
+
+
+
+  
+
+
+   <div class="content">
+    <h2 class="Page-Title">Manage Posts</h2>
+
+    <table>
+      <thead>
+        <th>SN</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th Colspan="3">Action</th>
+        
+      </thead>
+
+      <tbody>
+        <tr>
+        <td>1</td>
+        <td>This is the first post</td>
+        <td>Mahmud</td>
+        <td><a href="#" class="edit">edit</a></td>
+         <td><a href="#" class="delete">delete</a></td>
+          <td><a href="#" class="publish">publish</a></td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td>This is the second post</td>
+        <td>Hasan</td>
+        <td><a href="#" class="edit">edit</a></td>
+         <td><a href="#" class="delete">delete</a></td>
+          <td><a href="#" class="publish">publish</a></td>
+        </tr>
+
+
+
+      </tbody>
+      
+    </table>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

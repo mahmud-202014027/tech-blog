@@ -1,0 +1,113 @@
+.admin-wrapper{
+  display: flex;
+
+
+  height:100%; 
+
+}
+
+
+.admin-wrapper .left-sidebar{
+
+  flex: 2;
+  border: 10px solid royalblue;
+  height:690px;
+  background-color: royalblue;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: whitesmoke;
+
+}
+
+.admin-wrapper .left-sidebar ul li a{
+  padding: 18px;
+  display: block;
+  border-bottom: 1px solid yellowgreen;
+}
+
+.admin-wrapper .left-sidebar ul li a:hover{
+  background: rgba(0, 0, 0, 1.0);
+
+}
+
+h3,h4{
+
+  color: white;
+}
+
+.admin-wrapper .Admin-content{
+
+  flex: 8;
+   height:690px;
+   border: 10px solid whitesmoke;
+background-color: whitesmoke ;
+
+overflow-y: scroll;
+
+}
+
+.Admin-content .Page-Title{
+
+text-align: center;
+
+}
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+   border-bottom: 1px solid lightblue;
+}
+
+
+
+.edit{
+
+  color: green;
+}
+.delete{
+  color: red;
+}
+.publish{
+  color: blue;
+
+}
+
+.edit:hover{
+  text-decoration: underline;
+
+}
+
+.delete:hover{
+   text-decoration: underline;
+  
+}
+
+.publish:hover{
+   text-decoration: underline;
+  
+}
+
+
+.button1{
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+
+
+}
