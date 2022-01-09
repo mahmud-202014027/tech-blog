@@ -54,10 +54,10 @@ LAYOUT
 ============================================================================= */
 
 #main {min-width:980px; width:expression(document.body.clientWidth < 980? "980px" : "auto" );}
-#tray {padding:12px 15px; background:url("../design/tray.gif") 0 0 repeat-x; font:85%/1.2 "tahoma",sans-serif;}
+#tray {padding:12px 15px;  0 0 repeat-x; font:85%/1.2 "tahoma",sans-serif;}
 #tray p {margin:0;}
 #tray p.f-left {width:50%;}
-#tray #logout {padding-left:18px; background:url("../design/tray-logout.gif") 0 50% no-repeat; text-transform:uppercase;}
+#tray #logout {padding-left:18px; ) 0 50% no-repeat; text-transform:uppercase;}
 #tray #switcher {margin-right:15px;}
 #tray #switcher img {display:block; float:left; width:16px; height:16px; border:0;}
 #menu {padding:15px 15px 13px 15px; background:url("../design/menu.gif") 0 0 repeat-x;}
